@@ -1,0 +1,14 @@
+.fa-bars {
+    font-size: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+    .fa-bars {
+        display: inline-block;
+    }
+}
