@@ -1,0 +1,20 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media (max-width: 1155px) {
+    .cardwrapper {
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 600px) {
+    .parentbox {
+        flex-direction: column;
+    }
+    .cardwrapper {
+        flex-direction: column;
+    }
+}
